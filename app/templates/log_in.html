@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Log in</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="register">
+        <form action="log_in" method="post">
+            <label for="email">Почта</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="password">Пароль</label>
+            <input type="password" id="password" name="password" required><br>
+            <button type="submit">Войти</button>
+            <label> Нет аккаунта? <br> <a href="register"> Зарегестрироваться</a></label>
+            <label class="error_msg"> {{msg}}</label>
+        </form>
+    </div>
+</body>
+</html>

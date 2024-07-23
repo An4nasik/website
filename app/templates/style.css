@@ -1,0 +1,18 @@
+
+label {
+    display: block;
+    position: relative;
+}
+.register {
+    padding-left: 40%;
+    padding-top: 10%;
+}
+input {
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+.error_msg {
+    color: darkred;
+    background-color: lightsalmon;
+    display: inline-block;
+}
